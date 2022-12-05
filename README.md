@@ -1,5 +1,4 @@
 # 18280476
-<!doctype html>
 <html>
 <center>
 <head>
@@ -13,4 +12,6 @@
 
 <h3> NOMBRE:  <h4> Luis Alberto Guzmán Medina
 <h3> CREDITO: 
+
+
 
