@@ -11,7 +11,7 @@
 <body bgcolor="gray">
 
 <h3> NOMBRE:  <h4> Luis Alberto Guzmán Medina
-<h3> CREDITO: 
+<h3> VALIDO
 
 
 
