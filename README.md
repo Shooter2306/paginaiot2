@@ -1,5 +1,4 @@
-  <!DOCTYPE html>
-  <html lang='en'><head><meta charset='UTF-8'>
+  <!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'>
   <meta name='viewport' content='windth=device-width, initial-scale=1.0'>
   <title>Primer Programa : Control de un LED</title></head>
   /////////////////////
