@@ -1,4 +1,5 @@
-  <!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'>
+  <!DOCTYPE html>
+  <html lang='en'><head><meta charset='UTF-8'>
   <meta name='viewport' content='windth=device-width, initial-scale=1.0'>
   <title>Primer Programa : Control de un LED</title></head>
   /////////////////////
@@ -7,9 +8,9 @@
 LED 1
 IoT : Control de encendido de un LED - WEB
 button style='background-color:red; color:white; border-radius:10px; border-color:rgb(25,255,4);
-type='button' onClick=location.href='/LED=OFF'><h2>Apagar LED</h2>
+type='button' onClick=location.href='/LED=OFF'><Apagar LED
 buttonbutton style='background-color:blue; color:white; border-radius:10px; border-color:rgb(25,255,4);
-type='button' onClick=location.href='/LED=ON'><h2>Encender LED</h2>
+type='button' onClick=location.href='/LED=ON'><Encender LED
 </button></div></center></body></html>
 //fin de la pagina
 //se finaliza indicando que la petición fue finalizada
