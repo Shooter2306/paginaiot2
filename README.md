@@ -43,6 +43,10 @@
             background-color: #27ae60;
         }
 
+        #btnApagarLed {
+            background-color: #FF0000;
+        }
+
         #btnApagar {
             background-color: #34495e;
         }
@@ -53,6 +57,7 @@
     <button class="button" id="btn10" onclick="window.location.href='#10'">10%</button>
     <button class="button" id="btn25" onclick="window.location.href='#25'">25%</button>
     <button class="button" id="btn50" onclick="window.location.href='#50'">50%</button>
+    <button class="button" id="btnApagarLed" onclick="window.location.href='#apagarled'">ApagarLed</button>
 <h3>MOTOR</h3>  
     <button class="button" id="btnEncender" onclick="window.location.href='#encender'">Encender</button>
     <button class="button" id="btnApagar" onclick="window.location.href='#apagar'">Apagar</button>
