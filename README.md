@@ -1,80 +1,78 @@
-
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      background-color: #f0f0f0;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            text-align: center;
+        }
 
-  button-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
 
-  button {
-      padding: 10px 20px;
-      margin-bottom: 10px;
-      font-size: 16px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
+        .button:hover {
+            background-color: #3498db;
+        }
 
-  button:active {
-      background-color: #cccccc;
-    }
+        .button:active {
+            transform: translateY(2px);
+        }
 
-  button-10 {
-      background-color: #66bb6a;
-      color: white;
-    }
+        #btn10 {
+            background-color: #e74c3c;
+        }
 
-  button-25 {
-      background-color: #29b6f6;
-      color: white;
-    }
+        #btn25 {
+            background-color: #f1c40f;
+        }
 
-  button-50 {
-      background-color: #ffa726;
-      color: white;
-    }
+        #btn50 {
+            background-color: #2ecc71;
+        }
 
-  button-on {
-      background-color: #d32f2f;
-      color: white;
-    }
+        #btnEncender {
+            background-color: #27ae60;
+        }
 
-  button-off {
-      background-color: #bdbdbd;
-      color: white;
-    }
-  </style>
+        #btnApagar {
+            background-color: #34495e;
+        }
+    </style>
+</head>
+<body>
+    <button class="button" id="btn10" onclick="window.location.href='#10'">10%</button>
+    <button class="button" id="btn25" onclick="window.location.href='#25'">25%</button>
+    <button class="button" id="btn50" onclick="window.location.href='#50'">50%</button>
+    <button class="button" id="btnEncender" onclick="window.location.href='#encender'">Encender</button>
+    <button class="button" id="btnApagar" onclick="window.location.href='#apagar'">Apagar</button>
 
-  <div class="button-container">
-    <button class="button button-10" onclick="window.location.href='#10-percent'">10%</button>
-    <button class="button button-25" onclick="window.location.href='#25-percent'">25%</button>
-    <button class="button button-50" onclick="window.location.href='#50-percent'">50%</button>
-    <button class="button button-on" onclick="window.location.href='#encender'">Encender</button>
-    
-    <
-<button class="button button-off" onclick="window.location.href='#apagar'">Apagar</button>
-  </div>
+    <div id="10">
+        <!-- Contenido para el 10% -->
+    </div>
 
-  <!-- Content sections for redirection -->
-  <div id="10-percent" style="height: 100vh; background-color: #66bb6a;"></div>
-  <div id="25-percent" style="height: 100vh; background-color: #29b6f6;"></div>
-  <div id="50-percent" style="height: 100vh; background-color: #ffa726;"></div>
-  <div id="encender" style="height: 100vh; background-color: #d32f2f;"></div>
-  <div id="apagar" style="height: 100vh; background-color: #bdbdbd;"></div>
+    <div id="25">
+        <!-- Contenido para el 25% -->
+    </div>
+
+    <div id="50">
+        <!-- Contenido para el 50% -->
+    </div>
+
+    <div id="encender">
+        <!-- Contenido para "Encender" -->
+    </div>
+
+    <div id="apagar">
+        <!-- Contenido para "Apagar" -->
+    </div>
 </body>
 </html>
