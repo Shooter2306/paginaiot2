@@ -59,8 +59,7 @@
       color: white;
     }
   </style>
-</head>
-<body>
+
   <div class="button-container">
     <button class="button button-10" onclick="window.location.href='#10-percent'">10%</button>
     <button class="button button-25" onclick="window.location.href='#25-percent'">25%</button>
