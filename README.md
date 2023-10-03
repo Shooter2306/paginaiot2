@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -49,30 +49,13 @@
     </style>
 </head>
 <body>
+<h3>LED</h3>
     <button class="button" id="btn10" onclick="window.location.href='#10'">10%</button>
     <button class="button" id="btn25" onclick="window.location.href='#25'">25%</button>
     <button class="button" id="btn50" onclick="window.location.href='#50'">50%</button>
+<h3>MOTOR</h3>  
     <button class="button" id="btnEncender" onclick="window.location.href='#encender'">Encender</button>
     <button class="button" id="btnApagar" onclick="window.location.href='#apagar'">Apagar</button>
 
-    <div id="10">
-        <!-- Contenido para el 10% -->
-    </div>
-
-    <div id="25">
-        <!-- Contenido para el 25% -->
-    </div>
-
-    <div id="50">
-        <!-- Contenido para el 50% -->
-    </div>
-
-    <div id="encender">
-        <!-- Contenido para "Encender" -->
-    </div>
-
-    <div id="apagar">
-        <!-- Contenido para "Apagar" -->
-    </div>
 </body>
 </html>
