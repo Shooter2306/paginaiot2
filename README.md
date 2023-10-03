@@ -14,13 +14,13 @@
       background-color: #f0f0f0;
     }
 
-    .button-container {
+  button-container {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
 
-    .button {
+  button {
       padding: 10px 20px;
       margin-bottom: 10px;
       font-size: 16px;
@@ -30,31 +30,31 @@
       transition: background-color 0.3s;
     }
 
-    .button:active {
+  button:active {
       background-color: #cccccc;
     }
 
-    .button-10 {
+  button-10 {
       background-color: #66bb6a;
       color: white;
     }
 
-    .button-25 {
+  button-25 {
       background-color: #29b6f6;
       color: white;
     }
 
-    .button-50 {
+  button-50 {
       background-color: #ffa726;
       color: white;
     }
 
-    .button-on {
+  button-on {
       background-color: #d32f2f;
       color: white;
     }
 
-    .button-off {
+  button-off {
       background-color: #bdbdbd;
       color: white;
     }
