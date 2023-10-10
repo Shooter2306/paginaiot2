@@ -63,5 +63,5 @@
     <button class="button" id="btnApagar" onclick="window.location.href='#apagar'">Apagar</button>
 
 </body>
-<h2>Temperatura = + String (temperatura) + °C </h2>
+<h2>Temperatura =" + String (temperatura)" + °C </h2>
 </html>
