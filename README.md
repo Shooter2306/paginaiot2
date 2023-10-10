@@ -63,4 +63,5 @@
     <button class="button" id="btnApagar" onclick="window.location.href='#apagar'">Apagar</button>
 
 </body>
+<h2>Temperatura</h2>
 </html>
