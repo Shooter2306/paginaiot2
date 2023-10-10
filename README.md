@@ -64,4 +64,5 @@
 
 </body>
 <h2>Temperatura =" + String (temperatura)" + °C </h2>
+<h2>Humedad =" + String (temperatura)" + °C </h2>
 </html>
