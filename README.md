@@ -58,13 +58,10 @@
     <button class="button" id="btn25" onclick="window.location.href='#25'">25%</button>
     <button class="button" id="btn50" onclick="window.location.href='#50'">50%</button>
     <button class="button" id="btnApagarLed" onclick="window.location.href='#apagarled'">ApagarLed</button>
-  
+
+ <button onclick="location.reload()">Recargar Página</button>
+
 <h3>MOTOR</h3>  
-<div id="control-buttons" jstcache="0">
-        <button id="reload-button" class="blue-button text-button" onclick="reloadButtonClick(this.url);" jsselect="reloadButton" jsvalues=".url:reloadUrl" jscontent="msg" jstcache="5">Reload</button>
-        <button id="download-button" class="blue-button text-button" onclick="downloadButtonClick()" jsselect="downloadButton" jscontent="msg" jsvalues=".disabledText:disabledMsg" jstcache="6" style="display: none;">
-        </button>
-      </div>
     <button class="button" id="btnEncender" onclick="window.location.href='#encender'">Encender</button>
     <button class="button" id="btnApagar" onclick="window.location.href='#apagar'">Apagar</button>
 
