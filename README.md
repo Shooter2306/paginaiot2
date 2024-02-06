@@ -10,7 +10,7 @@
             margin: 20px;
             font-family: Arial, sans-serif;
             margin: 20px;
-            background-image: url('ruta/de/la/imagen.jpg'); /* Cambia la ruta a tu imagen */
+            background-image: url("WhatsApp Image 2024-02-05 at 6.18.26 PM.jpeg"); /* Cambia la ruta a tu imagen */
             background-size: cover; /* Ajusta el tamaño de la imagen al fondo */
 }
 
