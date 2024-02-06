@@ -8,7 +8,12 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
-            background-color: WhatsApp Image 2024-02-05 at 6.18.26 PM.jpeg; /* Color de fondo gris claro */
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-image: url('ruta/de/la/imagen.jpg'); /* Cambia la ruta a tu imagen */
+            background-size: cover; /* Ajusta el tamaño de la imagen al fondo */
+}
+
         }
 
         section {
