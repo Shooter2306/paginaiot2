@@ -8,7 +8,7 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
-            background-color: #WhatsApp Image 2024-02-05 at 6.18.26 PM.jpeg; /* Color de fondo gris claro */
+            background-color: WhatsApp Image 2024-02-05 at 6.18.26 PM.jpeg; /* Color de fondo gris claro */
         }
 
         section {
