@@ -1,71 +1,51 @@
-
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página</title>
     <style>
         body {
-            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f2f2f2; /* Color de fondo gris claro */
         }
 
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px;
-            font-size: 18px;
-            border: none;
-            border-radius: 5px;
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
             cursor: pointer;
-            transition: background-color 0.3s, transform 0.2s;
         }
 
-        .button:hover {
-            background-color: #3498db;
-        }
-
-        .button:active {
-            transform: translateY(2px);
-        }
-
-        #btn10 {
-            background-color: #e74c3c;
-        }
-
-        #btn25 {
-            background-color: #f1c40f;
-        }
-
-        #btn50 {
-            background-color: #2ecc71;
-        }
-
-        #btnEncender {
-            background-color: #27ae60;
-        }
-
-        #btnApagarLed {
-            background-color: #FF0000;
-        }
-
-        #btnApagar {
-            background-color: #34495e;
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-<h3>LED</h3>
-    <button class="button" id="btn10" onclick="window.location.href='#10'">10%</button>
-    <button class="button" id="btn25" onclick="window.location.href='#25'">25%</button>
-    <button class="button" id="btn50" onclick="window.location.href='#50'">50%</button>
-    <button class="button" id="btnApagarLed" onclick="window.location.href='#apagarled'">ApagarLed</button>
 
- <button onclick="location.reload()">Recargar Página</button>
+    <section id="direccion">
+        <h2>Dirección</h2>
+        <p>CALLE 3 DE MAYO FRACCIONAMIENTO LA UNION </p>
+    </section>
 
-<h3>MOTOR</h3>  
-    <button class="button" id="btnEncender" onclick="window.location.href='#encender'">Encender</button>
-    <button class="button" id="btnApagar" onclick="window.location.href='#apagar'">Apagar</button>
+    <section id="redes">
+        <h2>Redes Sociales</h2>
+        <ul>
+            <li><a href="" target="_blank">Facebook</a></li>
+            <li><a href="https://wa.me/9651174006" target="_blank">Whatsapp</a></li>
+            <li><a href="https://www.instagram.com/vanite_j?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a></li>
+        </ul>
+    </section>
 
 </body>
-<h2>Temperatura =" + String (temperatura)" + °C </h2>
-<h2>Humedad =" + String (temperatura)" </h2>
 </html>
+
